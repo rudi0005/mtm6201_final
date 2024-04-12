@@ -1299,4 +1299,58 @@ button span {
 display: none;
 }
 
+.navimages .hidden600 {
+  display:none;
+}
+
+.navimg1 img {
+  border-radius:0;
+  margin-left:5px;
+  width: 73px;
+  height: 73px;
+}
+
+.navimg1 .image-text{
+  font-size: 17pt;
+}
+
+.navimg2 .image-text{
+  font-size: 12pt;
+}
+
+.green-bg .image-text{
+  width: 70px;
+  height: 50px;
+
+}
+
+.navimg3 .image-text{
+  font-size: 17pt;
+}
+
+.navimg4 .image-text{
+  font-size: 17pt;
+}
+
+.navimg2 img {
+  border-radius:0;
+  margin-left:5px;
+  width: 73px;
+  height: 73px;
+}
+
+.navimg3 img {
+  border-radius:0;
+  margin-left:5px;
+  width: 73px;
+  height: 73px;
+}
+
+.navimg4 img {
+  border-radius:0;
+  margin-left:5px;
+  width: 73px;
+  height: 73px;
+}
+
 }
