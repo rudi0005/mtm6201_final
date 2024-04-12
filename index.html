@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Three Star Media</title>
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=News+Cycle:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header role="banner">
+      <section class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3">
+              <div class="shake-slow">
+             <picture>
+              <source media="(max-width:600px)" srcset="images/ms-medium.png">
+              <source media="(max-width:1280px)" srcset="images/ms-large.png">
+                <img
+                class="msLogo"
+                src="images/ms-large.png"
+                alt="MediSense Logo"
+              />
+            </picture>
+            </div>
+            </div>
+            <div class="col-3" align="end">
+              <div class="largelogo">
+                <picture>
+                  <source media="(max-width:600px)" srcset="images/medisense-small.png">
+                  <source media="(max-width:1280px)" srcset="images/medisense-large2.png">
+                <img
+                  src="images/medisense-large2.png"
+                  alt="MediSense Full Logo"
+                />
+              </picture>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="searchbar">
+                <input type="text" placeholder="Search..." />
+                <span><i class="bi bi-search"></i></span>
+              </div>
+            </div>
+            <div class="col-3" align="end">
+              <picture>
+                <source media="(max-width:600px)" srcset="images/profile-medium.png">
+                <source media="(max-width:1280px)" sercset="images/profile-large.png">
+              <img
+                id="profile-photo"
+                src="images/profile-large.png"
+                class="rounded-4"
+                alt="Profile Photo"
+              />
+            </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main role="main">
+      <section>
+        <div class="container-fluid">
+          <div class="row mb-0">
+            <div class="col-2 bg-dark p-0 h-100">
+              <div class="row">
+                <div class="navbuttons" role="navigation">
+                  <div class="col">
+                    <button class="button1">
+                      <i class="bi bi-house-door"></i>
+                      <span>HOME</span>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button>
+                      <i class="bi bi-people"></i>
+                      <span>STAFF</span>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button>
+                      <i class="bi bi-question-circle"></i>
+                      <span>ABOUT</span>
+                    </button>
+                  </div>
+                </div>
+                <!--closes navbuttons-->
+                <div class="navimages">
+                  <div class="navimg1">
+                    <img src="images/clouds.jpg" alt="Clouds" />
+                    <div class="image-sm-text">Ottawa, ON</div>
+                    <div class="image-text">10&deg;C</div>
+                    <div class="image-sm-text2">Cloudy</div>
+                  </div>
+                  <div class="navimg2">
+                    <img src="images/roomtemp.jpg" alt="Room Temperature" />
+                    <div class="green-bg">
+                      <div class="image-sm-text">Room Temperature</div>
+                      <div class="image-text">23.5&deg;C</div>
+                    </div>
+                  </div>
+                  <div class="navimg3">
+                    <img src="images/hospital-room.jpg" alt="Room" />
+                    <div class="image-sm-text">Current Room</div>
+                    <div class="image-text">104</div>
+                  </div>
+                  <div class="navimg4">
+                    <img src="images/bokeh.jpg" alt="Blue Texture" />
+                    <div class="image-sm-text">Time left</div>
+                    <div class="image-text">5h 34m</div>
+                    <div class="image-sm-text2">until end of shift</div>
+                  </div>
+                </div>
+                <!--closes navimages-->
+                <div class="container">
+                  <div class="row">
+                    <div class="col position-relative">
+                      <p class="placeholdertext">Placeholder</p>
+                      <img
+                        src="images/ms-transparent.png"
+                        class="img-overlay"
+                      />
+                      <p class="overlaytext">
+                        Copyright Info Here<br />MediSense Inc. Ottawa, ON<br />519-222-1234
+                      </p>
+                    </div>
+                    <!--closes col-->
+                  </div>
+                  <!--closes row-->
+                </div>
+                <!--closes container-->
+              </div>
+              <!--closes row layer 1-->
+            </div>
+            <!--closes dark grey background-->
+            <div class="col-6 p-0">
+              <div class="lightgreycontainer">
+                <div class="row">
+                  <div class="col-12">
+                    <p class="ms-title" role="heading">MEDISENSE INTERACTIVE INTERFACE</p>
+                  </div>
+                  <!--closes col-->
+                  <div class="col-6">
+                    <p class="welcome-title">
+                      WELCOME!<span><i class="bi bi-heart"></i></span>
+                    </p>
+                  </div>
+                  <!--closes col-->
+                  <div class="col-6 text-end">
+                    <p class="date-time">03/19/24<br />6:00:00</p>
+                  </div>
+                  <!--closes col-->
+                </div>
+                <!--closes row-->
+                <div class="row">
+                  <div class="col">
+                    <p class="welcome-text">
+                      MediSense is a cutting-edge interactive interface designed
+                      to streamline hospital operations and enhance patient
+                      care. With its intuitive platform, MediSense effectively
+                      tracks crucial aspects of hospital infrastructure, ranging
+                      from broken lights and temperature fluctuations to staff
+                      presence on shift.
+                    </p>
+                  </div>
+                  <!--closes col-->
+                </div>
+                <!--closes row-->
+              </div>
+              <!--closes lightgreycontainer-->
+              <div class="mediumrow">
+                <div class="row">
+                  <div class="col-7 p-0">
+                    <div class="lightbluecontainer">
+                      <div class="row">
+                        <div class="col-7 p-0">
+                          <div class="hospitalrooms">
+                            <p role="heading">HOSPITAL ROOMS</p>
+                          </div>
+                          <!--closes hospitalrooms-->
+                        </div>
+                        <!--closes col7-->
+                        <div class="col-5 p-0">
+                          <div class="mapbutton">
+                            <button type="button" class="map-button">
+                              Map View <i class="bi bi-search"></i>
+                            </button>
+                          </div>
+                          <!--closes mapbutton-->
+                        </div>
+                        <!--closes col-->
+                      </div>
+                      <!--closes row-->
+                      <div class="row justify-content-center">
+                        <div class="col-12">
+                          <p class="buttonbg">Placeholder</p>
+                          <button class="upbutton">
+                            <i class="bi bi-chevron-compact-up"></i>
+                          </button>
+                        </div>
+                        <div class="containernavy">
+                          <div class="col-12 position-relative">
+                            <div class="row">
+                              <div class="contain1">
+                                <div class="col-4">
+                                  <img
+                                    class="roomimg1"
+                                    src="images/hospital1.png"
+                                  />
+                                  <p class="room100">100</p>
+                                </div>
+                              </div>
+                              <div class="contain2">
+                                <div class="col-3">
+                                  <img
+                                    class="roomimg2"
+                                    src="images/hospital2.png"
+                                  />
+                                  <p class="room101">101</p>
+                                </div>
+                              </div>
+                              <div class="contain3">
+                                <div class="col-3">
+                                  <img
+                                    class="roomimg3"
+                                    src="images/hospital1.png"
+                                  />
+                                  <p class="room102">102</p>
+                                </div>
+                              </div>
+                              <div class="contain4">
+                                <div class="col-4">
+                                  <img
+                                    class="roomimg4"
+                                    src="images/hospital2.png"
+                                  />
+                                </div>
+                              </div>
+                              <div class="contain5">
+                                <div class="col-3">
+                                  <img
+                                    class="roomimg5"
+                                    src="images/hospital1.png"
+                                  />
+                                </div>
+                              </div>
+                              <div class="contain6">
+                                <div class="col-3">
+                                  <img
+                                    class="roomimg6"
+                                    src="images/hospital2.png"
+                                  />
+                                </div>
+                              </div>
+                              <div class="contain7">
+                                <div class="col-4">
+                                  <img
+                                    class="roomimg7"
+                                    src="images/hospital1.png"
+                                  />
+                                </div>
+                              </div>
+                              <div class="contain8">
+                                <div class="col-3">
+                                  <img
+                                    class="roomimg8"
+                                    src="images/hospital2.png"
+                                  />
+                                </div>
+                              </div>
+                              <div class="contain9">
+                                <div class="col-3">
+                                  <img
+                                    class="roomimg9"
+                                    src="images/hospital1.png"
+                                  />
+                                </div>
+                              </div>
+
+                              <div class="contain4">
+                                <div class="col-4">
+                                  <p class="room103">103</p>
+                                </div>
+                              </div>
+                              <div class="contain5">
+                                <div class="col-3">
+                                  <p class="room104">104</p>
+                                </div>
+                              </div>
+                              <div class="contain6">
+                                <div class="col-3">
+                                  <p class="room105">105</p>
+                                </div>
+                              </div>
+                              <div class="contain7">
+                                <div class="col-4">
+                                  <p class="room106">106</p>
+                                </div>
+                              </div>
+                              <div class="contain8">
+                                <div class="col-3">
+                                  <p class="room107">107</p>
+                                </div>
+                              </div>
+                              <div class="contain9">
+                                <div class="col-3">
+                                  <p class="room108">108</p>
+                                </div>
+                              </div>
+                            </div>
+                            <p class="placeholder-navy">hi</p>
+                          </div>
+                        </div>
+                            <div class="col-12">
+                          <button class="downbutton">
+                            <i class="bi bi-chevron-compact-down"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!--closes lightbluecontainer-->
+                  </div>
+                  <!--closes col7-->
+                  <div class="col-5 p-0">
+                    <div class="row">
+                      <div class="col-12 position-relative">
+                        <p class="selection">Selected Room Information:</p>
+                      </div>
+                      <div class="col-12">
+                        <p class="medication">Medication administered<br>for the day?</p>
+                      </div>
+                      <div class="col-12">
+                        <button class="yesbutton">YES</button>
+                        <button class="nobutton">NO</button>
+                      </div>
+                      <div class="col-12">
+                        <p class="notes">Notes:</p>
+                      </div>
+                      <div class="col-12">
+                        <textarea role="form"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <p class="roomstatus">Room Status:</p>
+                      </div>
+                      <div class="col-5">
+                        <p class="greencircle">hi<br>hi<br>hi</p>
+                      </div>
+                      <div class="col-7">
+                        <p class="greyrectangle">hi<br>hi<br>hi</p>
+                      </div>
+                      <div class="col-5">
+                        <p class="in-use">IN USE</p>
+                      </div>
+                      <div class="col-7">
+                        <p class="functionalroom">This room is<br>fully functional<br>and occupied.</p>
+                      </div>
+                      <div class="col-5">
+                        <img class="greenleaves" src="images/green-leaves.jpg">
+                      </div>
+                      <div class="col-12">
+                        <p class="greycontainstatus">hi<br>hi<br>hi<br>hi</p>
+                      </div>
+                      <p class="babyblue">hi</p>
+                    </div>
+                  </div>
+                  <!--closes col5-->
+                </div>
+                <!--closes row-->
+              </div>
+              <!--closes mediumrow-->
+            </div>
+            <!--closes middlecol-->
+            <div class="col-4">
+              <div class="row">
+              <div class="row">
+                <div class="col-9">
+                    <p class="maintenance" role="heading">MAINTENANCE UPDATES!</p>
+                  </div>
+                  <div class="col-3">
+                    <button class="filterby">Filter By...</button>
+                  </div>
+                  <div class="row">
+                    <div class="col-2 px-0">
+                      <img class="john-doe" src="images/john-doe.png">
+                      <p class="john-doe-name">John Doe</p>
+                    </div>
+                    <div class="col-10 px-0">
+                      <p class="maintenancetitle">“Air conditioner fix in room 104”</p>
+                      <p class="maintenancetext">"There was a small issue with the motor which was ultimately fixed. Nothing major to note here, but thank you to Jill who noticed the problem as it could have led to bigger issues."</p>
+                      <p class="dateandtime">03/06/24, 12:09:58</p>
+                    </div>
+                    <div class="col-2 px-0">
+                      <img class="bob-smith" src="images/bob-smith.png">
+                      <p class="bob-smith-name">Bob Smith</p>
+                    </div>
+                    <div class="col-10 px-0">
+                      <p class="maintenancetitle2">“Bed replacement in room 215”</p>
+                      <p class="maintenancetext2">The bed’s automatic motor was busted and the whole thing needed to be replaced. Let us know ASAP if another one seems to have the same issue, as it is crucial for some patients to have movement.</p>
+                      <p class="dateandtime2">03/05/24, 9:17:34</p>
+                    </div>
+                    <div class="col-12 px-0">
+                      <div class="updatebackground1">placeholder</div>
+                    </div>
+                    <div class="col-12 px-0">
+                     <div class="updatebackground2">placeholder</div>
+                    </div>
+                    <div class="col-9">
+                      <p class="whitesphere"><i class="bi bi-arrow-down-short"></i></p>
+                    </div>
+                    <div class="col-3">
+                      <p class="viewall">VIEW ALL</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 p-0">
+                <div class="placeholderleft"><img src="images/light-grey-bg.jpg"></div>
+              </div>
+              <div class="row">
+              <div class="col-12">
+                <img class="map-image" src="images/map-image.png">
+              </div>
+              <div class="col-12">
+                <img class="map-legend" src="images/map-legend.png">
+              </div>
+              <div class="col-12 px-0">
+                <p class="bottomleftplaceholder">hi</p>
+              </div>
+            </div>
+              </div><!--closes first big row-->
+            </div> <!--closes left row-->
+          </div>
+          <!--closes big row-->
+        </div>
+        <!--closes container-fluid-->
+      </section>
+    </main>
+    <footer></footer>
+    <!-- Bootstrap JS Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
